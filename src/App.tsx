@@ -7,9 +7,8 @@ function App() {
   return (
     <div className="App">
       <ImageSlider
-        url={"https://via.placeholder.com/600/"}
+        url={"https://jsonplaceholder.typicode.com/photos"}
         limit={"6"}
-        page={"1"}
       />
     </div>
   );
